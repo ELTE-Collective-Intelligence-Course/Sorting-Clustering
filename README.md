@@ -1,5 +1,32 @@
 # Clustering-TorchRL Project
 
+[![CI](https://github.com/elte-collective-intelligence/student-sorting-clustering/actions/workflows/ci.yml/badge.svg)](https://github.com/elte-collective-intelligence/student-sorting-clustering/actions/workflows/ci.yml)
+[![Docker](https://github.com/elte-collective-intelligence/student-sorting-clustering/actions/workflows/docker.yml/badge.svg)](https://github.com/elte-collective-intelligence/student-sorting-clustering/actions/workflows/docker.yml)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC--BY--NC--ND%204.0-blue.svg)](LICENSE)
+
+---
+
+A multi-agent reinforcement learning (TorchRL/PPO) study of cooperative **ant sorting & clustering**: decentralised agents move on a grid, pick up and drop coloured items, and learn to spatially cluster items of the same type through local interaction and a stigmergic pheromone field.
+
+![Ant sorting & clustering rollout](simulation_pheromone.gif)
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Structure](#project-structure-benedek)
+- [Environment](#environment-benedek)
+- [Learning Algorithm](#learning-algorithm-benedek)
+- [Visualisation tools](#visualisation-tools-benedek)
+- [Configuration Management](#configuration-management-arron)
+- [Docker and Reproducibility](#docker-and-reproducibility-arron)
+- [Reports, Testing, and Parameter Exploration](#reports-testing-and-parameter-exploration-arron)
+- [Run training](#run-training)
+- [Run evaluation](#run-evaluation)
+
+---
+
 ## Overview
 This project investigates a multi-agent reinforcement learning (MARL) problem implemented using PyTorch and TorchRL. The goal is to study cooperative behavior and clustering dynamics in a grid-based environment using Proximal Policy Optimization (PPO). The project emphasizes reproducibility, modular configuration, and collaborative development.
 
